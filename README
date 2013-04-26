@@ -1,4 +1,13 @@
-= acts_as_activity_logged
+= acts_as_activity_logged gem
+This is the gem version of acts_as_activity_logged plugin
+(More information please read the acts_as_activity_logged plugin below)
+
+== Install
+Put this line in your Gemfile:
+
+  gem 'acts_as_activity_logged', :git => "git://github.com/SysMO-DB/acts_as_activity_logged.git"
+  
+= acts_as_activity_logged plugin
 
 acts_as_activity_logged is a plugin designed to record all activity made on a model, including the user and referenced models.
 
