@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.email       = 'nttqa22001@yahoo.com'
   s.files       = ["lib/acts_as_activity_logged.rb",
   		   "lib/activity_log.rb",
-  		   "RakeFile", 		  
-  		   "annotations.gemspec",
+  		   "Rakefile", 		  
+  		   "acts_as_activity_logged.gemspec",
   		   "README",
   		   "CHANGELOG",
   		   "rails/init.rb"]
