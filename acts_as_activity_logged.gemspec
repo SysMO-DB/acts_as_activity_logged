@@ -6,13 +6,7 @@ Gem::Specification.new do |s|
   s.description = "This gem is designed to record all activity made on a model, including the user and referenced models."
   s.authors     = ["abloke","Quyen Nguyen"]
   s.email       = 'nttqa22001@yahoo.com'
-  s.files       = ["lib/acts_as_activity_logged.rb",
-  		   "lib/activity_log.rb",
-  		   "Rakefile", 		  
-  		   "acts_as_activity_logged.gemspec",
-  		   "README",
-  		   "CHANGELOG",
-  		   "rails/init.rb"]
+  s.files       = `git ls-files`.split("\n")
   s.homepage    = 'https://github.com/SysMO-DB/acts_as_activity_logged'
   s.require_paths = ["lib"]
 end
